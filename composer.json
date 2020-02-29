@@ -1,0 +1,23 @@
+{
+  "name": "luispaiva/simplecalendar",
+  "description": "Plugin desenvolvido para gerenciar eventos direto de um calendário no painel do WordPress.",
+  "minimum-stability": "stable",
+  "keywords": ["WordPress", "Plugin", "Calendar"],
+  "homepage": "https://github.com/luispaiva/simplecalendar/",
+  "license": "MIT",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Luis Fernando de Paiva",
+      "email": "contato@luispaiva.com.br",
+      "homepage": "http://luispaiva.com.br",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-lib": "vendor"
+  },
+  "autoload": {
+    "psr-4": { "SimpleCalendar\\": "inc/" }
+  }
+}

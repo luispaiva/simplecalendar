@@ -1,0 +1,13 @@
+#calendar {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.fc-toolbar h2 {
+    text-transform: capitalize;
+}
+
+.fc-content {
+    line-height: 25px;
+    margin-left: 5px;
+}

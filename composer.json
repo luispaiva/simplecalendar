@@ -19,5 +19,8 @@
   },
   "autoload": {
     "psr-4": { "SimpleCalendar\\": "inc/" }
+  },
+  "require": {
+    "tgmpa/tgm-plugin-activation": "^2.6"
   }
 }

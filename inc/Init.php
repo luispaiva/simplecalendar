@@ -7,6 +7,7 @@ use SimpleCalendar\Custom\CustomFields;
 use SimpleCalendar\Custom\PostTypes;
 use SimpleCalendar\Setup\Menu;
 use SimpleCalendar\Setup\Enqueue;
+use SimpleCalendar\Setup\Plugins;
 
 class Init
 {
@@ -27,5 +28,6 @@ class Init
         PostTypes::get_instance();
         Events::get_instance();
         CustomFields::get_instance();
+        Plugins::get_instance();
     }
 }

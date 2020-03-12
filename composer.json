@@ -18,9 +18,11 @@
     "vendor-lib": "vendor"
   },
   "autoload": {
+    "files": ["vendor/cmb2/cmb2/init.php"],
     "psr-4": { "SimpleCalendar\\": "inc/" }
   },
   "require": {
-    "tgmpa/tgm-plugin-activation": "^2.6"
+    "tgmpa/tgm-plugin-activation": "^2.6",
+    "cmb2/cmb2": "dev-master"
   }
 }

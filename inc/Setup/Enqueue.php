@@ -29,15 +29,18 @@ class Enqueue
             return;
 
         // CSS
+        wp_enqueue_style('wp-jquery-ui-dialog');
+        wp_enqueue_style("datepicker", "//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css", array(), "1.12.1", false);
+
         wp_enqueue_style("fullcalendar", SC_PLUGIN_URL . "node_modules/fullcalendar/dist/fullcalendar.min.css", array(), "3.10.1", false);
         wp_enqueue_style("toastr", SC_PLUGIN_URL . "node_modules/toastr/build/toastr.min.css", array(), "3.10.1", false);
-
         wp_enqueue_style("style", SC_PLUGIN_URL . "assets/css/style.css", array(), "1.0.0", false);
 
         // Scripts
-        wp_deregister_script("jquery");
-        wp_register_script("jquery", SC_PLUGIN_URL . "node_modules/jquery/dist/jquery.min.js", "3.4.1", true);
         wp_enqueue_script("jquery");
+        wp_enqueue_script('jquery-ui-core');
+        wp_enqueue_script("jquery-ui-dialog");
+        wp_enqueue_script("jquery-ui-datepicker");
 
         wp_enqueue_script("moment", SC_PLUGIN_URL . "node_modules/moment/min/moment.min.js", array("jquery"), "2.10.0", true);
         wp_enqueue_script("fullcalendar", SC_PLUGIN_URL . "node_modules/fullcalendar/dist/fullcalendar.min.js", array("jquery", "moment"), "3.10.1", true);

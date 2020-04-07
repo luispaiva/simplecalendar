@@ -12,6 +12,9 @@ Plugin desenvolvido para gerenciar eventos direto de um calendário no painel do
 
 * [TGM Plugin Activation](http://tgmpluginactivation.com/)
 * [CMB2](https://cmb2.io)
+* [FullCalendar](https://fullcalendar.io/)
+* [Moment](https://momentjs.com/)
+* [Toastr](https://codeseven.github.io/toastr/)
 
 ### Instalação ###
 
